@@ -88,7 +88,7 @@ Then open: http://localhost:8501
 MIT License — feel free to use, modify, and share.
 
 🙋‍♂️ Author
-Akhil P M
-📧 akhilpm64@outlook.com
+Akhil P M<br>
+📧 akhilpm64@outlook.com<br>
 🔗 [LinkedIn](https://www.linkedin.com/in/akhil-p-m-614b53295)
 
