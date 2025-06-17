@@ -1,9 +1,9 @@
-🧠 DeepLabV3 Segmentation Web App
+# 🧠 DeepLabV3 Segmentation Web App
 
 A responsive web application for binary semantic segmentation powered by a custom-trained DeepLabV3 (ResNet-50) model. The model is trained from scratch using Binary Cross-Entropy with Logits Loss (BCEWithLogitsLoss) for optimization, and evaluated using the Dice Score metric to assess segmentation quality. Users can upload images or videos to instantly visualize accurate segmentation masks alongside the original input.
 
 
-📌 Overview
+#### 📌 Overview
 ✅ Model trained in a Jupyter notebook
 
 📦 Inference via a Streamlit web app
@@ -15,7 +15,7 @@ A responsive web application for binary semantic segmentation powered by a custo
 ⚡ Built with PyTorch, Albumentations, OpenCV, Streamlit
 
 
-🧠 Model Details
+#### 🧠 Model Details
 Architecture: DeepLabV3 + ResNet-50 (No pretrained weights)
 
 Output: Single-channel binary mask
@@ -25,8 +25,9 @@ Training Platform: Jupyter Notebook (notebook/Semantic_Segmentation_using_deepla
 Inference Platform: Streamlit Web UI (app.py)
 
 
-📂 Project Structure
+#### 📂 Project Structure
 
+```bash
 deeplabv3-semantic-segmentation-streamlit/
 ├── data/
 │   └── train/
@@ -43,8 +44,8 @@ deeplabv3-semantic-segmentation-streamlit/
 ├── train.py                 				# model training code                     			
 ├── requirements.txt
 └── README.md
-
-💡 Features
+```
+#### 💡 Features
 Upload .jpg or .mp4 files
 
 Real-time prediction using your trained model
@@ -57,11 +58,18 @@ Side-by-side visualization of input vs. predicted mask
 
 ```bash
 	git clone https://github.com/Akhilpm156/deeplabv3-semantic-segmentation-streamlit.git
+```
+```bash
 	cd deeplabv3-semantic-segmentation-streamlit
+```
+```bash
 	conda create -p venv python=3.10 -y
+```	
+```bash
 	conda activate .\venv
+```	
+```bash
 	pip install -r requirements.txt
-
 ```
 2. Run the training script
 ```bash
